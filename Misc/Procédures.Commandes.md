@@ -15,3 +15,9 @@ Si vous avez des bugs sur Windows, lenteurs ou plantages, vous pouvez passer ces
 `Dism /Online /Cleanup-Image /ScanHealth
 `Dism /Online /Cleanup-Image /RestoreHealth
 `sfc /scannow
+
+
+## ***Outlook erreur 1001***
+Supprimer tous les comptes dans windows professionnels,  scolaire et messagerie.
+Supprimer dans SAM les logins
+Redémarrer le poste
