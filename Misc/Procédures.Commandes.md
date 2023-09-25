@@ -21,3 +21,8 @@ Si vous avez des bugs sur Windows, lenteurs ou plantages, vous pouvez passer ces
 Supprimer tous les comptes dans windows professionnels,  scolaire et messagerie.
 Supprimer dans SAM les logins
 Redémarrer le poste
+
+## Outlook crash réunion
+
+Aller dans outlook fichier>options>compléments soit désactiver teams add-in
+soit aller dans fichier>option>calendrier désactiver transformer en lien teams automatiquement.
