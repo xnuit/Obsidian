@@ -23,6 +23,8 @@ Supprimer dans SAM les logins
 Redémarrer le poste
 
 ## Outlook crash réunion
-
 Aller dans outlook fichier>options>compléments soit désactiver teams add-in
 soit aller dans fichier>option>calendrier désactiver transformer en lien teams automatiquement.
+
+## Ouvrir fichier partagés management
+fsmgmt.msc
