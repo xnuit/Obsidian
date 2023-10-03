@@ -1,4 +1,5 @@
 ## ***Déconnexion Outlook***
+
 HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\Identity
 DisableADALatopWAMOverride Value=1  
 DisableAADWAM Value=1  
