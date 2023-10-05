@@ -12,5 +12,5 @@
       si le premier ne fonctionne pas tester les deux suivant et garder pour la fin:
       DESINSTALLER ANTIVIRUS PUIS REINSTALLER APRES
 	- [x] Appeler A&F optique pour mise a niveau w 10 pc srv (@2023-09-29 11h35) 
- - [ ] Lycée Belmont livraison de l'onduleur (@2023-10-04 14:30)
+ - [x] Lycée Belmont livraison de l'onduleur (@2023-10-04 14:30)
  - [ ] Trouver une clef de registre office pour ne connecter qu'a cette application
