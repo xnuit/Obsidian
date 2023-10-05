@@ -31,14 +31,14 @@ soit aller dans fichier>option>calendrier désactiver transformer en lien teams 
 fsmgmt.msc
 
 
-## Installation Kyocera
-X:\5.Technique\IMPRESSION\Imprimantes & Copieurs\_Scripts_Installation_Kyocera
+## Installation Imprimante Kyocera
+``X:\5.Technique\IMPRESSION\Imprimantes & Copieurs\_Scripts_Installation_Kyocera
 Copier le script dans le C:\abs client
 cherche le _deploy-printer_ dans le sous dossier 64 bits
-le lancer avec alt click en tant UE .\adminabs
+le lancer avec alt click en tant que ``.\adminabs
 choisir le nom
 trouver l'IP dans les propriétés de l'imprimante
 mettre la file d'attente
 rechercher le nom de l'impriuman,te dans le fiuchier texte qui apparait
 installer et attente la fin
-Atention au mode de selection dans le terminal
+Attention au mode de selection dans le terminal
