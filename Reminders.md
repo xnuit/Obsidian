@@ -14,3 +14,4 @@
 	- [x] Appeler A&F optique pour mise a niveau w 10 pc srv (@2023-09-29 11h35) 
  - [x] Lycée Belmont livraison de l'onduleur (@2023-10-04 14:30)
  - [ ] Trouver une clef de registre office pour ne connecter qu'a cette application
+ - [ ]  Trouver une clef de registre office pour ne connecter qu'a cette application (@2023-10-24 8:30)
