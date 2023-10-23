@@ -42,3 +42,4 @@ mettre la file d'attente
 rechercher le nom de l'impriuman,te dans le fiuchier texte qui apparait
 installer et attente la fin
 Attention au mode de selection dans le terminal
+kini5892
