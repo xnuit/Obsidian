@@ -45,7 +45,7 @@ Attention au mode de selection dans le terminal
 kini5892
 
 ## Désactiver la fenêtre "autoriser l'organisation à gérer les appareils ou se connecter à cette application uniquement."
-Reg add **HKLM\SOFTWARE\Policies\Microsoft\Windows\WorkplaceJoin, “BlockAADWorkplaceJoin”=dword:00000001**
+ **HKLM\SOFTWARE\Policies\Microsoft\Windows\WorkplaceJoin, “BlockAADWorkplaceJoin”=dword:00000001**
 
 ```
 REG ADD HKLM\SOFTWARE\Policies\Microsoft\Windows\WorkplaceJoin /v "BlockAADWorkplaceJoin" /t REG_DWORD /d "1" /f
