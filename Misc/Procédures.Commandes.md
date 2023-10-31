@@ -56,3 +56,8 @@ REG ADD HKLM\SOFTWARE\Policies\Microsoft\Windows\WorkplaceJoin /v "BlockAADWorkp
 ```
 REG ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v "EnableLUA" /t REG_DWORD /d "0" /f
 ```
+
+## Task kill
+```
+taskkill /im <process> /f
+```
