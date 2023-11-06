@@ -61,3 +61,8 @@ REG ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v "Enabl
 ```
 taskkill /im <process> /f
 ```
+
+## Script regedit key Office 365
+```
+d:\datas\5.Technique\INFRASTRUCTURE ET RESEAU\Procédures\Office\Office 2016
+```
