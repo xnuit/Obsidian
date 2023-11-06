@@ -66,3 +66,13 @@ taskkill /im <process> /f
 ```
 d:\datas\5.Technique\INFRASTRUCTURE ET RESEAU\Procédures\Office\Office 2016
 ```
+
+## Mise à jour temps NTP pour Domain Controller
+```netdom query fsmo ``` Trouver le domain controller
+```net stop w32time ``` Stopper le service de temps
+```w32tm /config /syncfromflags:manual /manualpeerlist:"0.ca.pool.ntp.org"``` config ntp
+```w32tm /config /reliable:yes``` Ajouter en source de confiance
+```net start w32time``` Relancer service temps
+```w32tm /resync /force``` Synchro
+```w32tm /query /status``` Voir le statut
+```w32tm /resync /nowait``` synchro les pc
