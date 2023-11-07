@@ -17,7 +17,7 @@
  - [x]  Trouver une clef de registre office pour ne connecter qu'a cette application (@2023-10-24 8:30)
  - [x] Réunion MUST St priest medical (@2023-10-26 1oi
   - [x] Appeler Roche pour la commande des bras d'ordinateur pas recu la photo du setup ophelie (@2023-10-27 8:30)
-- [ ] Appeler mutuelle remboursement (@2023-10-27 11:30)
-- [ ] Installer Office Gonzales(@2023-10-31 9:00)
+- [x] Appeler mutuelle remboursement (@2023-10-27 11:30)
+- [x] Installer Office Gonzales(@2023-10-31 9:00)
   
  
