@@ -76,3 +76,6 @@ d:\datas\5.Technique\INFRASTRUCTURE ET RESEAU\Procédures\Office\Office 2016
 ```w32tm /resync /force``` Synchro
 ```w32tm /query /status``` Voir le statut
 ```w32tm /resync /nowait``` synchro les pc
+
+## Get domain
+wmic computersystem get domain
