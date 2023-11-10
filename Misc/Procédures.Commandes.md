@@ -77,7 +77,7 @@ d:\datas\5.Technique\INFRASTRUCTURE ET RESEAU\Procédures\Office\Office 2016
 ```w32tm /query /status``` Voir le statut
 ```w32tm /resync /nowait``` synchro les pc
 
-## Get domain
+## Get domain name
 wmic computersystem get domain
 
 ## Problème fichier excel ouvert par autre utilisateur
@@ -85,5 +85,5 @@ Démarrez l’explorateur Windows et naviguez dans le répertoire contenant votr
 Dans la fenêtre de l’explorateur Windows, cliquez sur l’onglet « Affichage », puis cliquez sur « Options » :
 Cliquez sur l’onglet « **Affichage**« , puis cochez la case « **Afficher les fichiers, dossiers et lecteurs cachés** » et décochez la case « **Masquer les fichiers protégés du système d’exploitation**« . Validez en cliquant sur « OK »
 Si le fichier temporaire d’Excel est corrompu, il est possible qu’il soit toujours présent dans le répertoire alors que toutes les instances du fichier sont fermés. Vérifiez la date de dernière modification… Il est fort probable qu’elle ne date pas du jour :
-Éditez le fichier temporaire nommé **~$[Nom-du-fichier]** avec un éditeur de texte (Notepad, Notepad++, ou autres). Vous y trouverez sans doute le nom du dernier utilisateur ayant verrouillé le fichier avant que crash. S’agit-il du nom constamment affiché en verrouillage lorsqu’un utilisateur modifie votre fichier Excel ? Probable… :
+Éditez le fichier temporaire nommé **~$[Nom-du-fichier]** avec un éditeur de texte (Notepad, Notepad++, ou autres). Vous y trouverez sans doute le nom du dernier utilisateur ayant verrouillé le fichier avant le crash. S’agit-il du nom constamment affiché en verrouillage lorsqu’un utilisateur modifie votre fichier Excel ? Probable… :
 Fermez votre fichier Excel et supprimez tout simplement le fichier temporaire.
