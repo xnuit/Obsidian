@@ -19,5 +19,8 @@
   - [x] Appeler Roche pour la commande des bras d'ordinateur pas recu la photo du setup ophelie (@2023-10-27 8:30)
 - [x] Appeler mutuelle remboursement (@2023-10-27 11:30)
 - [x] Installer Office Gonzales(@2023-10-31 9:00)
-- [ ] Rappeler Asur upload nas vpn (@2023-11-09 11:30)
+- [x] Rappeler Asur upload nas vpn (@2023-11-09 11:30)
+- [ ] Appeler Elodie Ferrand Socodis (@2023-11-13 14:15)
+- [ ] Appeler CNV pour check si la wifi fonctionne (@2023-11-13 11:00)
+- [ ] 
  
