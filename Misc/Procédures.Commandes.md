@@ -87,3 +87,7 @@ Cliquez sur l’onglet « **Affichage**« , puis cochez la case « **Afficher
 Si le fichier temporaire d’Excel est corrompu, il est possible qu’il soit toujours présent dans le répertoire alors que toutes les instances du fichier sont fermés. Vérifiez la date de dernière modification… Il est fort probable qu’elle ne date pas du jour :
 Éditez le fichier temporaire nommé **~$[Nom-du-fichier]** avec un éditeur de texte (Notepad, Notepad++, ou autres). Vous y trouverez sans doute le nom du dernier utilisateur ayant verrouillé le fichier avant le crash. S’agit-il du nom constamment affiché en verrouillage lorsqu’un utilisateur modifie votre fichier Excel ? Probable… :
 Fermez votre fichier Excel et supprimez tout simplement le fichier temporaire.
+
+## Imprimante vider file d'impression spooler
+Se connecter au serveur (rds) ou est installée l'imprimante
+`net stop spooler & del c:\Windows\System32\spool\PRINTERS\*.* /F /Q & net start spooler`
