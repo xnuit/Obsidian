@@ -91,3 +91,11 @@ Fermez votre fichier Excel et supprimez tout simplement le fichier temporaire.
 ## Imprimante vider file d'impression spooler
 Se connecter au serveur (rds) ou est installée l'imprimante
 `net stop spooler & del c:\Windows\System32\spool\PRINTERS\*.* /F /Q & net start spooler`
+
+## Outlook force mode offline ou online.
+Chemin de la clé 
+`“HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Profiles\Outlook\0a0d020000000000c000000000000046”
+`
+Nom de la clé : 00030398 et la valeur est « 01 00 00 00 » pour travailler en offline.
+Par défaut c’est « 02 00 00 00 » pour travailler online.
+![[Pasted image 20231211084657.png]]
