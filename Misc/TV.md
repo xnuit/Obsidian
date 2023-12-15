@@ -3,7 +3,7 @@ qsmlwx!:69
 **BJ iNFO**
 TELEMBJ
 TELEMBJ@69
-ver2terr3
+v2 normal
 
 ## MDP TV
 sav@absams.com
