@@ -102,3 +102,12 @@ Chemin de la clé
 Nom de la clé : 00030398 et la valeur est « 01 00 00 00 » pour travailler en offline.
 Par défaut c’est « 02 00 00 00 » pour travailler online.
 ![[Pasted image 20231211084657.png]]
+
+## Supprimer une imprimante en cmd powershell
+### cmd
+`wmic printer get name`
+`printui.exe /dl /n "PRINTER"`
+
+### PS1
+`Get-Printer | Format-List Name`
+`Remove-Printer -Name "PRINTER"`
