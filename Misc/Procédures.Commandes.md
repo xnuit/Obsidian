@@ -111,3 +111,7 @@ Par défaut c’est « 02 00 00 00 » pour travailler online.
 ### PS1
 `Get-Printer | Format-List Name`
 `Remove-Printer -Name "PRINTER"`
+
+## Word n'imprime plus les images
+Word n'affiche plus les images que ce soit dans l'aperçu d'impression ou pour une conversion en pdf.
+`Fichier > options > option avancées > Impression > Cocher imprimer les images`
