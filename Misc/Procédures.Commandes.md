@@ -115,3 +115,7 @@ Par défaut c’est « 02 00 00 00 » pour travailler online.
 ## Word n'imprime plus les images
 Word n'affiche plus les images que ce soit dans l'aperçu d'impression ou pour une conversion en pdf.
 `Fichier > options > option avancées > Impression > Cocher imprimer les images`
+
+## Rediriger tous les postes dans l'OU Ordinateurs
+redircmp "OU=Ordinateurs,OU=Domaine Proaxion,DC=domaine,DC=local"
+Dsa.msc > affichage > avancé > propriétés UO souhaitée > editeur d'attributs > distinguished name > afficher.
