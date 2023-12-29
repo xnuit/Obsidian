@@ -129,3 +129,9 @@ Set-ItemProperty 'HKLM:\System\CurrentControlSet\Control\FileSystem' -Name 'Long
 ```
 REG ADD HKLM\System\CurrentControlSet\Control\FileSystem /v "LongPathsEnabled" /t REG_DWORD /d "1" /f
 ```
+
+## Vider le dossier spooler
+
+```
+net stop spooler & del c:\Windows\System32\spool\PRINTERS\*.* /F /Q & net start spooler
+```
