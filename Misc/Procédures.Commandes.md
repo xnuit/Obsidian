@@ -135,3 +135,8 @@ REG ADD HKLM\System\CurrentControlSet\Control\FileSystem /v "LongPathsEnabled" /
 ```
 net stop spooler & del c:\Windows\System32\spool\PRINTERS\*.* /F /Q & net start spooler
 ```
+
+## Get serial number numéro de série machine
+```
+wmic bios get serialnumber
+```
