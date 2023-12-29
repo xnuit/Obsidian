@@ -119,3 +119,13 @@ Word n'affiche plus les images que ce soit dans l'aperçu d'impression ou pour u
 ## Rediriger tous les postes dans l'OU Ordinateurs
 redircmp "OU=Ordinateurs,OU=Domaine Proaxion,DC=domaine,DC=local"
 Dsa.msc > affichage > avancé > propriétés UO souhaitée > editeur d'attributs > distinguished name > afficher.
+
+## Autoriser les chemins longs
+### powersell (5.1 minimum)
+```
+Set-ItemProperty 'HKLM:\System\CurrentControlSet\Control\FileSystem' -Name 'LongPathsEnabled' -value 1
+```
+### cmd
+```
+REG ADD HKLM\System\CurrentControlSet\Control\FileSystem /v "LongPathsEnabled" /t REG_DWORD /d "1" /f
+```
