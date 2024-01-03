@@ -140,3 +140,11 @@ net stop spooler & del c:\Windows\System32\spool\PRINTERS\*.* /F /Q & net start 
 ```
 wmic bios get serialnumber
 ```
+
+## Bug ou lenteurs windows
+Si vous avez des bugs sur Windows, lenteurs ou plantages, vous pouvez passer ces petites cmd en admin évidemment 😊
+```
+Dism /Online /Cleanup-Image /ScanHealth
+Dism /Online /Cleanup-Image /RestoreHealth
+sfc /scannow
+```
