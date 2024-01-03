@@ -147,4 +147,5 @@ Si vous avez des bugs sur Windows, lenteurs ou plantages, vous pouvez passer ces
 Dism /Online /Cleanup-Image /ScanHealth
 Dism /Online /Cleanup-Image /RestoreHealth
 sfc /scannow
+
 ```
