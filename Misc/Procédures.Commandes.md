@@ -55,7 +55,7 @@ REG ADD HKLM\SOFTWARE\Policies\Microsoft\Windows\WorkplaceJoin /v "BlockAADWorkp
 
 ```
 REG ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v "EnableLUA" /t REG_DWORD /d "0" /f
-```
+
 
 ## Task kill
 ```
@@ -149,3 +149,10 @@ Dism /Online /Cleanup-Image /RestoreHealth
 sfc /scannow
 
 ```
+
+## Installation mails mdaemon
+
+compte de messagerie > configuration manuelle des serveurs > autre
+Autres > désac maj auto
+Gestion de la base de données >  décocher les trois case
+serveur imap = smtp = vm mail
