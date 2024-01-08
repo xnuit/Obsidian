@@ -151,8 +151,10 @@ sfc /scannow
 ```
 
 ## Installation mails mdaemon
-
 compte de messagerie > configuration manuelle des serveurs > autre
 Autres > désac maj auto
 Gestion de la base de données >  décocher les trois case
 serveur imap = smtp = vm mail
+
+## Installation TrendMicro Server/Agent
+\\srv-adds > ofscan>Download > AgentX64
