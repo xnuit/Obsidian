@@ -158,3 +158,7 @@ serveur imap = smtp = vm mail
 
 ## Installation TrendMicro Server/Agent
 \\srv-adds > ofscan>Download > AgentX64
+
+## Outlook
+**DisableServerAssistedSearch**
+**DisableServerAssistedSearch**
