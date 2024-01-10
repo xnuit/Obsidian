@@ -161,4 +161,9 @@ serveur imap = smtp = vm mail
 
 ## Outlook
 **DisableServerAssistedSearch**
-**DisableServerAssistedSearch**
+Key: HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Options\Search  
+Value name: **DisableServerAssistedSearch**  
+Value type: REG_DWORD  
+Value: 1
+
+(You may need to manually create the registry key it it doesn't exist.)
