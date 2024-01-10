@@ -167,3 +167,9 @@ Value type: REG_DWORD
 Value: 1
 
 (You may need to manually create the registry key it it doesn't exist.)
+
+## Enlever une ancienne adresse principale outlook registre regedit
+**Outlook 2016** – `HKEY_CURRENT_USER \ Software \ Microsoft \ Office \ 16.0 \ Outlook \ Profiles
+press **Ctrl + F**
+search for **001f6641**
+clicker sur la  clef pour voir si l'adresse est bien celle qu'on veut retirer
