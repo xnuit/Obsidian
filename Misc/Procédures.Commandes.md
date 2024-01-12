@@ -158,7 +158,7 @@ serveur imap = smtp = vm mail
 ## Installation TrendMicro Server/Agent
 \\srv-adds > ofscan>Download > AgentX64
 
-## Outlook
+## Outlook désactiver la recherche sur serveur
 **DisableServerAssistedSearch**
 Key: HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Options\Search  
 Value name: **DisableServerAssistedSearch**  
@@ -176,7 +176,9 @@ clicker sur la  clef pour voir si l'adresse est bien celle qu'on veut retirer
 ## Restauration windows si chiffrement BitLocker
 Si le disque est chiffré les points de restaurations ne seront pas accessibles.
 Il ya deux types de chiffrement BitLocker : Avec une clef de récupération ou sans clef de récupération via la TPM. La TPM contient la clef de chiffrement si le disque est retiré de la carte mère ou celle-ci grille il sera impossible de déchiffrer le disque.
+manage-bde
 
 ## Licences CAL pour RDS/TSE
 Admin Panel Office365 > Admin center > Vos produits > Logiciel.> Afficher les clefs d'activation > copier la clef dans le presse papier
-Aller sur le serveur RDS ouvrir outils d'administration
+Aller sur le serveur RDS ouvrir outils d'administration > Outils > Remote Desktop > Services
+Clic droit sur le serveur installer les licences puis suivre les étapes.
