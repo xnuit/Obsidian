@@ -131,7 +131,6 @@ REG ADD HKLM\System\CurrentControlSet\Control\FileSystem /v "LongPathsEnabled" /
 ```
 
 ## Vider le dossier spooler
-
 ```
 net stop spooler & del c:\Windows\System32\spool\PRINTERS\*.* /F /Q & net start spooler
 ```
@@ -175,6 +174,9 @@ search for **001f6641**
 clicker sur la  clef pour voir si l'adresse est bien celle qu'on veut retirer
 
 ## Restauration windows si chiffrement BitLocker
-
 Si le disque est chiffré les points de restaurations ne seront pas accessibles.
 Il ya deux types de chiffrement BitLocker : Avec une clef de récupération ou sans clef de récupération via la TPM. La TPM contient la clef de chiffrement si le disque est retiré de la carte mère ou celle-ci grille il sera impossible de déchiffrer le disque.
+
+## Licences CAL pour RDS/TSE
+Admin Panel Office365 > Admin center > Vos produits > Logiciel.> Afficher les clefs d'activation > copier la clef dans le presse papier
+Aller sur le serveur RDS ouvrir outils d'administration
