@@ -193,3 +193,12 @@ net use * /del
 net use \\srv-mdt /user:testtest
 net use * /del
 ```
+
+## Changer la langue du système windows
+### powershell
+```
+Get-WinSystemLocale
+```
+```
+Set-WinSystemLocale fr-FR
+```
