@@ -59,7 +59,7 @@ REG ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v "Enabl
 ```
 
 ## Task kill
-
+```
 taskkill /im <process> /f
 ```
 
@@ -118,9 +118,11 @@ Word n'affiche plus les images que ce soit dans l'aperçu d'impression ou pour u
 `Fichier > options > option avancées > Impression > Cocher imprimer les images`
 
 ## Rediriger tous les postes dans l'OU Ordinateurs
+```
+
 redircmp "OU=Ordinateurs,OU=Domaine Proaxion,DC=domaine,DC=local"
 Dsa.msc > affichage > avancé > propriétés UO souhaitée > editeur d'attributs > distinguished name > afficher.
-
+```
 ## Autoriser les chemins longs (longpaths)
 ### powersell (5.1 minimum)
 ```
@@ -183,3 +185,11 @@ manage-bde
 Admin Panel Office365 > Admin center > Vos produits > Logiciel.> Afficher les clefs d'activation > copier la clef dans le presse papier
 Aller sur le serveur RDS ouvrir outils d'administration > Outils > Remote Desktop > Services
 Clic droit sur le serveur installer les licences puis suivre les étapes.
+
+## Déconnecter ghost connection fichier partage
+
+```
+net use * /del
+net use \\srv-mdt /user:testtest
+net use * /del
+```
