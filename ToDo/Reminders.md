@@ -22,5 +22,5 @@
 - [x] Rappeler Asur upload nas vpn (@2023-11-09 11:30)
 - [x] Appeler Elodie Ferrand Socodis (@2023-11-13 14:15) ok
 - [x] Appeler CNV pour check si la wifi fonctionne (@2023-11-13 11:00) ok
-- [ ] 
+- [x] 
  
