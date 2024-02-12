@@ -202,3 +202,9 @@ Get-WinSystemLocale
 ```
 Set-WinSystemLocale fr-FR
 ```
+
+## Réparer et vider le cache outlook mail mdaemon
+```
+Se rendre dans C:\Users\"nom_user"\Appdata\Roaming\Alt-N\Outlook Connector 2.0\Accounts\"nom_profil"\"adresse_mail"
+```
+Supprimer attachments et localeCache.db mais **garder config.xml**
