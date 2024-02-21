@@ -208,3 +208,9 @@ Set-WinSystemLocale fr-FR
 Se rendre dans C:\Users\"nom_user"\Appdata\Roaming\Alt-N\Outlook Connector 2.0\Accounts\"nom_profil"\"adresse_mail"
 ```
 Supprimer attachments et localeCache.db mais **garder config.xml**
+
+## Freeze sur TSE RDS pour un seul utilisateur
+passer le bureau a distance en UDP
+```
+reg add "HKLM\software\policies\microsoft\windows nt\Terminal Services\Client" /v fClientDisableUDP /d 1 /t REG_DWORD
+```
