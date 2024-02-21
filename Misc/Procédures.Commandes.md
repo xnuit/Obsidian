@@ -214,3 +214,11 @@ passer le bureau a distance en UDP
 ```
 reg add "HKLM\software\policies\microsoft\windows nt\Terminal Services\Client" /v fClientDisableUDP /d 1 /t REG_DWORD
 ```
+
+## Forcer la fermeture du spooler pour vider la file d'attente d'impression
+```
+net stop spooler
+WINDOWS\System32\spool\PRINTERS
+supprimmer tous les SHD et SPL
+net start spooler
+```
