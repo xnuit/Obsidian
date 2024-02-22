@@ -222,3 +222,14 @@ WINDOWS\System32\spool\PRINTERS
 supprimmer tous les SHD et SPL
 net start spooler
 ```
+
+## Remettre l'autocompletion outlook des adresses mails
+```
+Ouvrir %LOCALAPPDATA%\Microsoft\Outlook
+dupliquer le dossier stream autocomplete actuel
+Ouvrir outlook sur le nouveau profil
+Laisser Outlook OUVERT
+écrire un nouveau mail avec une adresse, cela génère un nouveau fichier autocomplete
+Copier le nom du fichier autocomplete le plus récent et renommer en .old
+Copier le nom du nouveau fichier sur le fichier original (le plus volumineux)
+```
