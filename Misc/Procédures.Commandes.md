@@ -79,7 +79,9 @@ d:\datas\5.Technique\INFRASTRUCTURE ET RESEAU\Procédures\Office\Office 2016
 ```w32tm /resync /nowait``` synchro les pc
 
 ## Get domain name
+```
 wmic computersystem get domain
+```
 
 ## Problème fichier excel ouvert par autre utilisateur
 ### 1
@@ -232,4 +234,12 @@ Laisser Outlook OUVERT
 écrire un nouveau mail avec une adresse, cela génère un nouveau fichier autocomplete
 Copier le nom du fichier autocomplete le plus récent et renommer en .old
 Copier le nom du nouveau fichier sur le fichier original (le plus volumineux)
+```
+
+## Fermer un fichier dans dossier partage bloque par ghost user
+```
+Win + r
+fsmgmt.msc
+fichiers ouverts
+rechercher l'arborescence et fermer le fichier concerné
 ```
