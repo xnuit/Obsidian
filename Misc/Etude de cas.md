@@ -4,9 +4,9 @@ projet
 
 
 
-| PLDiffusion  |
-|---|
-|03 89 21 71 32|
+| PLDiffusion    |
+| -------------- |
+| 03 89 21 71 32 |
 Pointeur DNS proaxion : 
 proaxion.fr screen 365
 si il gere actuellement un service de messagerie
