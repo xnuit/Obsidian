@@ -212,7 +212,7 @@ Se rendre dans C:\Users\"nom_user"\Appdata\Roaming\Alt-N\Outlook Connector 2.0\A
 Supprimer attachments et localeCache.db mais **garder config.xml**
 
 ## Freeze sur TSE RDS pour un seul utilisateur
-passer le bureau a distance en UDP
+passer le bureau a distance en TCP
 ```
 reg add "HKLM\software\policies\microsoft\windows nt\Terminal Services\Client" /v fClientDisableUDP /d 1 /t REG_DWORD
 ```
