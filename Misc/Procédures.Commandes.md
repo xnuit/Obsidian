@@ -5,6 +5,9 @@ DisableADALatopWAMOverride Value=1
 DisableAADWAM Value=1  
 EnableADAL  Value=1  
 
+(Déconnecter tous les comptes dans compte et mails + credential manager
+refaire un nouveau profil
+re-paramétrer les boites mails et les fichiers de données.)
 Reset de la clé Office dans la BDR + déconnexion du/des compte(s) si présent dans les paramètres (cf screen 1) + check dans le mag et suppression des identifications Office comme le second screen + reboot.
 Après le reboot, remettre les clés avec le script BDR_modifs_globalesetc….bat + reparamétrer le ou les comptes
 
