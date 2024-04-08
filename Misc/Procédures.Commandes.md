@@ -248,7 +248,7 @@ rechercher l'arborescence et fermer le fichier concerné
 ```
  
 Il faut créer/modifier cette clé en DWORD "EnablePerUserCatalog" avec la valeur "0" dans ```
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Search
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Search```
 
 Une fois cette clé créer/modifier, il faut juste reboot le service Windows Search + rebuild l’indexation et c'est good.
  
