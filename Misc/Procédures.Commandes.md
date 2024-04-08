@@ -246,3 +246,16 @@ fsmgmt.msc
 fichiers ouverts
 rechercher l'arborescence et fermer le fichier concerné
 ```
+ 
+Il faut créer/modifier cette clé en DWORD "EnablePerUserCatalog" avec la valeur "0" dans ```
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Search
+
+Une fois cette clé créer/modifier, il faut juste reboot le service Windows Search + rebuild l’indexation et c'est good.
+ 
+Cela permet d’activer les options de recherches Outlook (qui sont grisés dans le cas contraire) et de faire refonctionner l’indexation sur un serveur RDS. Cf ci-dessous.
+ ![[Pasted image 20240408081524.png]]
+ ![[Pasted image 20240408081531.png]]
+ 
+Enfaite cette clé si elle n'existe pas ou si elle est à 1, elle active le service d'indexation par utilisateur et non serveur ce qui crée un petit fichier .edb sur chaque profil utilisateur et si j'ai bien compris ce fichier est reset à chaque fermeture de session ou peut se reset donc pas ouf et accessoirement en fermeture de session peut te bloquer avec un process Windows Search sans que tu puisses forcer la déconnexion (hors stop service). (lol)
+Ce n'est pas un bug c'est juste Microsoft qui pensait avoir eu l'idée du siècle mais pas moyen de modifier cette option en interface graphique ou en cmd ou en gpo, il faut créer/modifier la clé de registre…
+ 
