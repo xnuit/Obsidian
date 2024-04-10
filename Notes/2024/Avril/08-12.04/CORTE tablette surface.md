@@ -41,4 +41,6 @@ mdp :
 onedrive : 
 Signature : 
 NAS : 
+Bureau : 
+Veille : OK
 
