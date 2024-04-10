@@ -6,6 +6,7 @@ TELEMBJ@69
 v2 normal
 
 P@ss4TV_PC
+ms-settings:dateandtime\\
 ## MDP TV
 sav@absams.com
 Smdp7@UnlockTv*
