@@ -9,14 +9,14 @@ NAS :
 mail : ok
 mdp : ok
 onedrive : ok
-Signature : 
+Signature : a créer
 NAS : ok mdp changé pour plus simple
 
 ### Jean Marc Gattuso✅
 mail : OK
 mdp : ok
 onedrive : ok
-Signature : A RECUP
+Signature : avec transfert de données
 Office : OK
 NAS : ok
 ### Anne Laure Barrue✅
@@ -31,7 +31,7 @@ NAS : OK
 mail : OK
 mdp : OK
 onedrive : OK
-Signature : non
+Signature : avec transfert de données
 Office : ok
 NAS : ok
 
@@ -54,18 +54,23 @@ NAS : OK
 Bureau : OK
 Veille : OK
 
-### Matheo CARAMANNA
-mail : 
-office : 
-mdp : OK
-onedrive : 
-Signature : avec trasnfert de données
-NAS : 
-Bureau : 
-Veille : OK
-
-
-mdp : OK
-Veille : OK
-Bureau : OK
+### Matheo CARAMANNA✅
 mail : OK
+office : OK
+mdp : OK
+onedrive : OK
+Signature : avec trasnfert de données
+NAS : OK
+Bureau : OK
+Veille : OK
+
+### Thomas GUIRAUT✅
+mdp : OK
+Veille : OK
+NAS : OK
+Bureau : OK
+favoris nas web : ok
+mail : OK
+office : OK
+onedrive : OK
+Signature : transfert de données
