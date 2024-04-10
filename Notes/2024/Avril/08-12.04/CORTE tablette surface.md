@@ -1,3 +1,10 @@
+```
+mail : 
+mdp : 
+onedrive : 
+Signature : 
+NAS : 
+```
 ### Clarisse Freville
 mail : ok
 mdp : ok
@@ -27,3 +34,11 @@ onedrive : OK
 Signature : non
 Office : ok
 NAS : ok
+
+### Francois ROLIN
+mail : 
+mdp : 
+onedrive : 
+Signature : 
+NAS : 
+
