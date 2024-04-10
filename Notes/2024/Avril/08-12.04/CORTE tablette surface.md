@@ -5,8 +5,8 @@ onedrive : ok
 Signature : 
 NAS : ok mdp changé pour plus simple
 
-### Jean Marc Gattuso A APPELER
-mail : NON
+### Jean Marc Gattuso
+mail : OK
 mdp : ok
 onedrive : ok
 Signature : A RECUP
@@ -20,10 +20,10 @@ Signature : OK
 Office : OK
 NAS : OK
 
-### Clarisse Freville
+### Emilie Delbes
 mail : OK
 mdp : OK
-onedrive : ok
-Signature : NON
-Office : OK
-NAS : OK
+onedrive : OK
+Signature : non
+Office : ok
+NAS : ok
