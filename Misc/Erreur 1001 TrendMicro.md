@@ -9,7 +9,7 @@ Les modifications à apporter sont situés dans Antivirus/Anti-programme Espion,
 ### •	Antivirus/Anti-programme Espion, Il faut exclure :
 o	Deux répertoires :
 ```
--	C:\Users\*\AppData\Local\Packages\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy*
+C:\Users\*\AppData\Local\Packages\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy*
 ```
 
 ```
