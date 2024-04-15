@@ -259,3 +259,8 @@ Cela permet d’activer les options de recherches Outlook (qui sont grisés dans
 Enfaite cette clé si elle n'existe pas ou si elle est à 1, elle active le service d'indexation par utilisateur et non serveur ce qui crée un petit fichier .edb sur chaque profil utilisateur et si j'ai bien compris ce fichier est reset à chaque fermeture de session ou peut se reset donc pas ouf et accessoirement en fermeture de session peut te bloquer avec un process Windows Search sans que tu puisses forcer la déconnexion (hors stop service). (lol)
 Ce n'est pas un bug c'est juste Microsoft qui pensait avoir eu l'idée du siècle mais pas moyen de modifier cette option en interface graphique ou en cmd ou en gpo, il faut créer/modifier la clé de registre…
  
+## Installation de Windows 11 Pro changement de licence
+
+Si la clef d'activation ne fonctionne pas, mettre cette clef générique pour la mise à niveau puis activer la licence avec la bonne clef ensuite.
+
+**Clé générique: DYNDG-6CVGG-3HB9V-6TC8C-3YH26**
