@@ -11,3 +11,5 @@ ms-settings:dateandtime\\
 sav@absams.com
 Smdp7@UnlockTv*
 Ordinateur\HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Addins\ACDAddIn
+
+973qs96d
