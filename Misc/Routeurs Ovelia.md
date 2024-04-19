@@ -14,3 +14,4 @@ Cisco / Cisco06
 Port : 8443 / 8888
 **/!/** Chez Ovelia Opio le dernier caractère de l'adresse mac peut différer, appeler pour vérifier le nom actuel ou vérifier le S/N **/!/**
 **/!/** Chez Ovelia Opio le mot de passe de routeurs cisco peut être P@ss4TpL!nk06* **/!/**
+Bvr58523
