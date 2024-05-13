@@ -9,7 +9,7 @@ P@ss4TpL!nk95*
 P@ss4T(L!nk95*
 P@ss4TpL!nk30* --> Ovelia 30 Les Angles
 oveliaerl69  --> Utilisé sur Herblay (x.x.96.69)
-Cisco / Cisco06
+cisco / Cisco06 (username sensible a la casse)
 
 Port : 8443 / 8888
 **/!/** Chez Ovelia Opio le dernier caractère de l'adresse mac peut différer, appeler pour vérifier le nom actuel ou vérifier le S/N **/!/**
