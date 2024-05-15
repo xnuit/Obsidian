@@ -264,3 +264,6 @@ Ce n'est pas un bug c'est juste Microsoft qui pensait avoir eu l'idée du siècl
 Si la clef d'activation ne fonctionne pas, mettre cette clef générique pour la mise à niveau puis activer la licence avec la bonne clef ensuite.
 
 **Clé générique: DYNDG-6CVGG-3HB9V-6TC8C-3YH26**
+
+
+REG ADD HKLM\SOFTWARE\Policies\Microsoft\Windows\WorkplaceJoin /v "BlockAADWorkplaceJoin" /t REG_DWORD /d "1" /f
