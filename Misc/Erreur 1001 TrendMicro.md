@@ -48,3 +48,4 @@ o	Deux URL : http://autodiscover.nomdedomaine.com et https://autodiscover.nomded
 Aller en bas de page pour enregistrer les modifications sinon elles ne seront pas prises en compte quand vous changer de menu.
  
 Sources : https://success.trendmicro.com/dcx/s/solution/000292628?language=en_US
+

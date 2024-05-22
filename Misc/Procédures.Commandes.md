@@ -266,3 +266,6 @@ Si la clef d'activation ne fonctionne pas, mettre cette clef générique pour la
 **Clé générique: DYNDG-6CVGG-3HB9V-6TC8C-3YH26**
 
 
+## Passer le RDS en mode install 
+`change user /install`
+`change user /execute`
