@@ -18,3 +18,8 @@ Ordinateur\HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Addins\ACDAd
 lbelissant
 1460120242
 s6jervmd
+
+lesage
+382622114
+coubigny
+569918776
