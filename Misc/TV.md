@@ -37,4 +37,10 @@ Jus23014
 jorcin
 dnnyur
 
-**08:01** e
+**08:01** elliot serin société fauveau pb imprimante, défaillance de la machine C6600
+2553-Ci 1419062733
+bourre souvent bourrage papier 0772511445
+
+**08:10** Richard Romi Panoptique sécurité
+samrt ps n'ont pas de réseau non plus
+5mi9ggza
