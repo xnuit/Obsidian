@@ -46,3 +46,4 @@ samrt ps n'ont pas de réseau non plus
 5mi9ggza 
 YM3M214457 voir pour la carte 5g
 fptrfvj2
+**09:08** M. Hawkins de AFRIP kyocera taskalfa bloque au niveau 0662779841
