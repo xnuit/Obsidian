@@ -44,4 +44,5 @@ bourre souvent bourrage papier 0772511445
 **08:10** Richard Romi Panoptique sécurité
 samrt ps n'ont pas de réseau non plus
 5mi9ggza 
-YM3M214457
+YM3M214457 voir pour la carte 5g
+fptrfvj2
