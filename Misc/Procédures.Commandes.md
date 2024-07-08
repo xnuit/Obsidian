@@ -269,3 +269,8 @@ Si la clef d'activation ne fonctionne pas, mettre cette clef générique pour la
 ## Passer le RDS en mode install 
 `change user /install`
 `change user /execute`
+
+## Supprimer tous les blancs VIM
+```
+%s/^\s*//g
+```
