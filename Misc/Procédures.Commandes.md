@@ -274,3 +274,4 @@ Si la clef d'activation ne fonctionne pas, mettre cette clef générique pour la
 ```
 %s/^\s*//g
 ```
+command W :execute ':silent w sudo vim vimrc  tee % > /dev/null' | :edit!
