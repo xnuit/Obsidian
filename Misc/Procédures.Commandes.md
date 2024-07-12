@@ -270,7 +270,7 @@ Si la clef d'activation ne fonctionne pas, mettre cette clef générique pour la
 `change user /install`
 `change user /execute`
 
-## Supprimer tous les blancs VIM
+## Supprimer tous les espaces blancs VIM
 ### ALL
 ```
 :%s/^\s*//g
