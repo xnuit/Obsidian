@@ -1,6 +1,7 @@
 ## ***Déconnexion Outlook***
 
 ###### `HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\Identity `
+DWORD 32 Bits
 DisableADALatopWAMOverride Value=1  
 DisableAADWAM Value=1  
 EnableADAL  Value=1  
