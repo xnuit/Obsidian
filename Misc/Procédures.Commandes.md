@@ -280,3 +280,11 @@ Si la clef d'activation ne fonctionne pas, mettre cette clef générique pour la
 ```
 :%s/^\s\+//g
 ```
+
+## Outlook désactiver Authentication smtp
+Install-Module -Name ExchangeOnlineManagement
+Import-Module ExchangeOnlineManagement
+Connect-ExchangeOnline -UserPrincipalName admin@tenant.com -ShowProgress $true
+Get-User | Set-CASMailbox -SmtpClientAuthenticationDisabled $false
+ 
+Attention la troisième ligne de commande, il faut modifier admin@tenant.com par le vrai compte admin du tenant. 
