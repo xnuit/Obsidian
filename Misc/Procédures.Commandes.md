@@ -288,3 +288,9 @@ Connect-ExchangeOnline -UserPrincipalName admin@tenant.com -ShowProgress $true
 Get-User | Set-CASMailbox -SmtpClientAuthenticationDisabled $false
  
 Attention la troisième ligne de commande, il faut modifier admin@tenant.com par le vrai compte admin du tenant. 
+
+## Remplacer des mots ou termes dans VIM
+
+```
+:%s/ancien/nouveau/g
+```
