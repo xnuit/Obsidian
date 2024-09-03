@@ -294,3 +294,8 @@ Attention la troisième ligne de commande, il faut modifier admin@tenant.com par
 ```
 :%s/ancien/nouveau/g
 ```
+
+## Migrer les roles FSMO vers un autre domain controller 
+``` 
+Move-ADDirectoryServerOperationMasterRole -Identity “srv-adds” -OperationMasterRole 0,1,2,3,4
+```
