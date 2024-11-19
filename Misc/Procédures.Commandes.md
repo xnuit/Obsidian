@@ -159,7 +159,7 @@ sfc /scannow
 ```
 
 ## Installation mails mdaemon
-compte de messagerie > configuration manuelle des serveurs > autre
+compte de messagerie > configuration manuelle des serveurs > autre.
 Autres > désac maj auto
 Gestion de la base de données >  décocher les trois case
 serveur imap = smtp = vm mail
